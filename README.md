@@ -6,7 +6,7 @@ Ubah Silahkan, Biar Bot Kalian Jadi Semakin Bagus. Selamat Mencoba!
 
 ## About
 
-### Made by Meliodas.#4613 With Luve :3
+### Made by Fana.#4613 With Luve :3
 
 * Enable/Disable Welcome Image Sesuka Kalian
 * Channel Bisa Di Custom Dimanapun Kalian Mau
