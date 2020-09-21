@@ -1,17 +1,17 @@
 # Discord Welcome Image. 
 
-Yaaww Selamat Pagi/Siang/Sore/Malam Buat Kalian Hwhw... Yups! Nih Buat Kalian Yang Pengen Welcome Image... Bisa Langsung Disimak Yaaww!
-Jadi... Welcome Image Yang Aku Buat Ini... Ga Sebagus Kayak Punya Orang - Orang, Jadi Cukup - Cukup-in Lah Yaaaa Wkwkw... Kalau Mau Kalian
-Ubah Silahkan, Biar Bot Kalian Jadi Semakin Bagus. Selamat Mencoba!
+Yups! Nih Buat Kalian Yang Pengen Welcome Image... Bisa Langsung Disimak Yaaww!
+Jadi... Welcome Image Yang Aku Buat Ini Ga Sebagus Kayak Punya Orang - Orang... Cukup - Cukup-in Lah Yaaaa Wkwkw... 
+Kalau Mau Kalian Ubah Silahkan, Biar Jadi Semakin Bagus. Selamat Mencoba!
 
 ## About
 
-### Made by Fana.#4613 With Luve :3
+### Made by dynstyxx.#4613 With Luve :3
 
-* Enable/Disable Welcome Image Sesuka Kalian
-* Channel Bisa Di Custom Dimanapun Kalian Mau
-* Message Bisa Di Custom... Max 34 Huruf (Recomended) Atau Lebih (Ubah Sendiri)
-* Background Bisa Kalian Set Sendiri Menggunakan Link (`.JPG` / `.PNG`)
+* Enable/Disable Welcome Image 
+* Channel Bisa Di Set Dimanapun 
+* Message Bisa Di Custom... Max 34 Huruf (Recomended)
+* Background Bisa Bisa Di Custom Menggunakan Link (`.JPG` / `.PNG`)
 
 ## Installation
 
@@ -24,8 +24,8 @@ Ubah Silahkan, Biar Bot Kalian Jadi Semakin Bagus. Selamat Mencoba!
 
 ### Meng-Aktifkan & Meng-Nonaktifkan Welcome Image
 
-* **Enable**: Pilih Enable Untuk Meng-Aktifkan Welcome Image
-* **Disable**: Pilih Disable Untuk Meng-Nonaktifkan Welcome Image
+* **Enable**: Enable Untuk Meng-Aktifkan Welcome Image.
+* **Disable**: Disable Untuk Meng-Nonaktifkan Welcome Image.
 * **Usage**: `[Prefix]Welcome <Enable/Disable>`
 
 ```js
@@ -51,7 +51,7 @@ bot.on("message", async(msg) => {
 
 ### Meng-Custom Channel Untuk Welcome Image
 
-* **Channel**: Welcome Image Akan Dikirim Pada Channel Yang Kalian Inginkan
+* **Channel**: Menentukan Channel Untuk Welcome Image.
 * **Usage**: `[Prefix]Welcome Channel <#channel>`
 
 ```js
@@ -77,7 +77,7 @@ bot.on("message", async msg => {
 
 ### Meng-Custom Message Pada Welcome Image
 
-* **Message**: Mengganti Default Message Dengan Message Yang Kalian Inginkan. (Message Akan Ditampilkan Pada Welcome Image)
+* **Message**: Meng-Custom Welcome Message. (Message Akan Ditampilkan Pada Welcome Image)
 * **Usage**: `[Prefix]Welcome Message <Message>`
   
 ```js
@@ -103,7 +103,7 @@ bot.on("message", async msg => {
 
 ### Meng-Custom Background Welcome Image
 
-* **Background**: Mengganti Default Background Dengan Background Yang Kalian Inginkan
+* **Background**: Meng-Custom Background Pada Welcome Image
 * **Usage**: `[Prefix]Welcome Background <URL -> .JPG / .PNG>`
   
 ```js
@@ -127,11 +127,11 @@ bot.on("message", async msg => {
 });
 ```
 
-### Hal Ke-Dua Yang Perlu Kalian Lakukan
+### Read And Learn
 
 * Tambahkan Event `"guildMemberAdd"` Pada PROJECT Kalian
 * Get Database Welcome Image
-* Buat Susunan Welcome Image
+* Buat Susunan Canvas Welcome Image
 * Send Welcome Image Berupa File Gambar
 
 ```js
