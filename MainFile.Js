@@ -1,5 +1,4 @@
-  
-if (Argumen.toUpperCase() === "ENABLE") {
+  if (Argumen.toUpperCase() === "ENABLE") {
   msg.channel.send(`Enable`);
   db.set(`${msg.guild.id}.Config.Welcome.ED`, "YA");
 };
@@ -21,7 +20,7 @@ if (Argumen.toUpperCase() === "CHANNEL") {
 
 if (Argumen.toUpperCase() === "MESSAGE" || Argumen.toUpperCase() === "MSG") {
   let Message = args.slice(2).join(" ");
-  if (Message.length > 24) {
+  if (Message.length > 34) {
     msg.channel.send(`Message??`);
   } else {
     msg.channel.send(`Message: ${Message}`);
