@@ -6,10 +6,10 @@ bot.on("guildMemberAdd", async member => {
       return;
     } else {
       let BG = db.get(`${member.guild.id}.Config.Welcome.Background`);
-      if (!BG) BG = "URL DEFAULT BACKGROUND";
+      if (!BG) BG = "URL_Background.png";
         
       let MSG = db.get(`${member.guild.id}.Config.Welcome.Message`);
-      if (!MSG) MSG = "DEFAULT MESSAGE";
+      if (!MSG) MSG = "WELCOME (Default Message)";
         
       var imageUrlRegex = /\?size=2048$/g;
       var { body: avatar } = await get(member.user.displayAvatarURL.replace(imageUrlRegex, "?size512"));
