@@ -181,10 +181,10 @@ bot.on("guildMemberAdd", async member => {
 
 `Ini Adalah Hasil Dari Apa Yang Sudah Kalian Baca Dan Simak Diatas! Selamat Mencobaa!!`
 
-* Enable/Disable Welcome Image Sesuka Kalian
-* Channel Bisa Di Custom Dimanapun Kalian Mau
-* Message Bisa Di Custom... Max 34 Huruf (Recomended) Atau Lebih (Ubah Sendiri)
-* Background Bisa Kalian Set Sendiri Menggunakan Link (`.JPG` / `.PNG`)
+* Enable/Disable Welcome Image 
+* Channel Bisa Di Set Dimanapun 
+* Message Bisa Di Custom... Max 34 Huruf (Recomended)
+* Background Bisa Bisa Di Custom Menggunakan Link (`.JPG` / `.PNG`)
 
 <img src="https://cdn.discordapp.com/attachments/684577548381978657/688620806011617314/welcome.png"/>
 
